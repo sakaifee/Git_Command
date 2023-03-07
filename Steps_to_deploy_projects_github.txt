@@ -1,0 +1,31 @@
+Steps to deploy projects on Github:
+-----------------------------------
+
+generate personal access token from - setting/developer setting
+
+
+
+git init
+
+git status
+
+git remote add origin https://github.com/sakaifee/EDA_Titanic_Dataset.git
+
+git remote set-url origin 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@github.com:sakaifee//EDA_Titanic_Dataset.git
+
+git remote -v
+
+git status
+
+git add . 
+
+git commit -m "comment for project"
+
+git remote set-url origin https://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@github.com/sakaifee/EDA_Titanic_Dataset.git
+
+git push origin master
+
+
+
+
+
